@@ -1,0 +1,11 @@
+{
+	"state": ["IDLE", "HEY", "READY"],
+
+	"event_id": {
+		"IDLE": [{"id_name": "1", "dst": "HEY", "des": ""}],
+		"HEY": [{"id_name": "2", "dst": "READY", "des": ""}],
+		"READY": [{"id_name": "3", "dst": "HEY", "des": ""}]
+	},
+
+	"end_state": ["outcome"]
+}
